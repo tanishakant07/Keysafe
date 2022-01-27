@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-image: url("logo.png");
+	background-size:auto;
+	background-position: center;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#primarynav{   
+background: #800080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Lobster', cursive;
+    font-family: 'Satisfy', cursive;
+    font-size: xx-large;
+	font-weight:700;
+	color:black;
+    padding-top: 10px ;
+	padding-bottom: 10px;
+}
+#primarynav img{
+	border-radius: 50%;
+	margin-right:20px;
+	border: 1px solid black;
+}
+
+/* *************secondary nav */
+#secondarynav img{
+	border-radius: 50%;
+	border: black;
+	border-style:solid;
+	border-radius:50%;
+	border-width:2px;
+}
+
+#secondarynav{
+	padding-top:2px;
+	padding-bottom:2px;
+	border: 2px solid black;
+	
+	
+	
+	
+}
+#righticons li{
+	padding: 0 1rem 0 1rem;
+	
+	}
+#righticons li:hover{
+border: 2px solid blue;
+
+}
+
+#SOS span{
+	display:block;
+	color:red;
+	font-size:2.5rem;
+	padding : 0 2px 0 2px;
+}
+#SOS li:hover{
+	border: 3px solid red;
+}
+#righticons li:first-of-type{
+	border: 2px solid cadetblue;
+}
+
+ion-icon{
+	font-size:2.5rem;
+	color:black;
+}
+
+
+
+/* section  */
+
+.first-box{
+	margin:auto;
+	margin-top:2rem;
+	padding: 20px 0 20px 0;
+	margin-bottom:3em;
+	font-size:xx-large;
+	font-weight: 500;
+	font-family: 'Lobster', cursive;
+	text-align:center;
+	background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius:.2em;
+box-shadow: 0 1px 10px 2px #C779D0;
+	
+}
+.secondbox{
+	background-color:#0000006b;
+	border-radius:5px;
+	padding: 50px 0 50px 0;
+	margin-bottom:50px;
+}
+
+
+.databoxing p{
+	margin-top:1rem;
+font-size:1.3em;
+color:white;
+font-weight: bold;
+}
+.databoxing{
+	padding: 3rem;
+	
+}
+.databoxing a{
+	padding:.7em 2.5em;
+}
+
+.gamebox img{
+    /* margin-right:5rem; */
+	border:3px solid black;
+	width:200px;
+	height:200px;
+	/* padding:20px 20px; */
+	/* border: 2px solid black; */
+}
+#games .row{
+	margin-bottom: 4rem;
+}
+
+
+
+.footer {
+
+font-size:1.5rem;
+overflow: hidden;
+background:#0f3443;
+display:flex;
+flex-direction: row;
+justify-content:space-evenly;
+}
+
+.footer li{
+	
+	padding: 30px 15px;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+ 
